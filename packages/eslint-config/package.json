@@ -1,0 +1,37 @@
+{
+  "name": "@miew/eslint-miewtify",
+  "version": "1.0.5",
+  "main": "eslint.config.mjs",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish-manual": "npm publish",
+    "bump-version": "npm version patch --no-git-tag-version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "", 
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "eslint-plugin-check-file": "^3.2.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-perfectionist": "^4.12.3",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.31.1"
+  },
+  "peerDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "eslint-plugin-check-file": "^3.2.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-perfectionist": "^4.12.3",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.31.1"
+  }
+}

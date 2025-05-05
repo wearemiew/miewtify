@@ -1,0 +1,26 @@
+{
+      "name": "miewtify",
+      "version": "0.0.6",
+      "description": "An opinionated linter standard for working on frontend development",
+      "main": "index.js",
+      "type": "module",
+      "scripts": {
+            "publish-eslint-config": "npm publish --workspace @miewtify/eslint-config-react",
+       },
+      "repository": {
+            "type": "git",
+            "url": "git+https://github.com/wearemiew/miewtify.git"
+      },
+      "keywords": [
+            "linter"
+      ],
+      "author": "cristian.oliveira@miew.pt",
+      "license": "MIT",
+      "bugs": {
+            "url": "https://github.com/wearemiew/miewtify/issues"
+      },
+      "homepage": "https://github.com/wearemiew/miewtify#readme",
+       "workspaces": [
+    "packages/*"
+  ],
+}
